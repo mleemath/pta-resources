@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Main Content */
+main {
+    margin: 20px;
+}
+
+/* Section Titles */
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* File Card Container */
+.file-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* File Card */
+.file-card {
+    display: block;
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.file-card:hover {
+    transform: scale(1.05);
+}
+
+/* Download Text */
+.download-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
